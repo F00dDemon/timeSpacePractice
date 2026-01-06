@@ -1,10 +1,11 @@
 import java.util.ArrayList;
-import java.util.List;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Practice {
 
+  //Orion
   // Time Complexity:
   // Space Complexity: 
   public static List<Integer> findEvens(int[] array) {
@@ -16,7 +17,7 @@ public class Practice {
     }
     return evens;
   }
-
+  //Freddie
   // Time Complexity:
   // Space Complexity: 
   public static int sumDiagonal(int[][] matrix) {
@@ -27,7 +28,7 @@ public class Practice {
     return sum;
   }
   
-
+  //Orion
   // Time Complexity: 
   // Space Complexity: 
   // Does the 'T' look confusing? Consider refreshing on generic methods
@@ -39,7 +40,7 @@ public class Practice {
     }
     return frequencies;
   }
-
+  //Freddie
   // Time Complexity: 
   // Space Complexity: 
   public static List<Integer> evensToSquare(int n) {
@@ -51,6 +52,7 @@ public class Practice {
   }
 
   /**
+   * Orion
    * Returns the integer that shows up most frequently in an array.
    * If there is a tie, tiebreak by returning the one that shows up first
    * in the array.
@@ -72,6 +74,7 @@ public class Practice {
   }
 
   /**
+   * Freddie
    * Returns the integer that shows up most frequently in an array.
    * If there is a tie, tiebreak by returning the one that shows up first
    * in the array.
