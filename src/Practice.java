@@ -6,8 +6,8 @@ import java.util.Map;
 public class Practice {
 
   //Orion
-  // Time Complexity:
-  // Space Complexity: 
+  // Time Complexity: O(N) N = array.length
+  // Space Complexity: O(N) N = evens.length determined by array.length
   public static List<Integer> findEvens(int[] array) {
     List<Integer> evens = new ArrayList<>();
     for (int num : array) {
@@ -29,8 +29,8 @@ public class Practice {
   }
   
   //Orion
-  // Time Complexity: 
-  // Space Complexity: 
+  // Time Complexity: O(N) N = array length
+  // Space Complexity: O(N) N = frequencies length determined by array length
   // Does the 'T' look confusing? Consider refreshing on generic methods
   // We'll revisit generics as a class later
   public static <T> Map<T, Integer> countFrequencies(T[] array) {
@@ -70,7 +70,17 @@ public class Practice {
   public static int mostCommonTimeEfficient(int[] nums) {
     // TODO: Complete this method with an implementation that runs
     // in O(n) time. n = nums.size()
-    return -1;
+    Map<Integer, Integer> numList = new HashMap<>();
+    int mainvalue = -1;
+    for(int num: numList.values()){
+      numList.put(num, numList.getOrDefault(num, 0) + 1);
+    }
+    for(int num: numList.keySet()){
+      if (num>mainvalue){
+        mainvalue=num;
+      }
+    }
+    return mainvalue;
   }
 
   /**
