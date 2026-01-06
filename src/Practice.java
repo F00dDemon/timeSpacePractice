@@ -18,8 +18,8 @@ public class Practice {
     return evens;
   }
   //Freddie
-  // Time Complexity: O(n)
-  // Space Complexity: O(1)
+  // Time Complexity: O(n) --> length of the matrix
+  // Space Complexity: O(1) 
   public static int sumDiagonal(int[][] matrix) {
     int sum = 0;
     for (int i = 0; i < matrix.length; i++) {
@@ -41,8 +41,8 @@ public class Practice {
     return frequencies;
   }
   //Freddie
-  // Time Complexity: O(n)
-  // Space Complexity: O(1)
+  // Time Complexity: O(n) --> length of n
+  // Space Complexity: O(n) --> n length of evens determined by n
   public static List<Integer> evensToSquare(int n) {
     List<Integer> evens = new ArrayList<>();
     for(int i = 0; i <= n*n; i+=2) {
@@ -92,6 +92,13 @@ public class Practice {
   public static int mostCommonSpaceEfficient(int[] nums) {
     // TODO: Complete this method with an implementation that runs
     // in O(1) space.
+    
+    for (int num )
+
+
+
+
+    return num;
     return -1;
   }
 }
