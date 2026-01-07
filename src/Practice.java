@@ -72,8 +72,8 @@ public class Practice {
     // in O(n) time. n = nums.size()
     Map<Integer, Integer> numList = new HashMap<>();
     int mainvalue = -1;
-    for(int num: numList.values()){
-      numList.put(num, numList.getOrDefault(num, 0) + 1);
+    for(int i= 0; i < nums.length; i++){
+      numList.put(nums[i], numList.getOrDefault(nums[i], 0) + 1);
     }
     for(int num: numList.keySet()){
       if (num>mainvalue){
@@ -81,6 +81,11 @@ public class Practice {
       }
     }
     return mainvalue;
+  }
+  public static void main(String[] args) {
+    int[] arr = {1,3,6,2,3,4,7,2,1,4,7,3,5,3,1,7,7,6,4,7};
+    
+    System.out.println(mostCommonTimeEfficient(arr));
   }
 
   /**
@@ -103,12 +108,12 @@ public class Practice {
     // TODO: Complete this method with an implementation that runs
     // in O(1) space.
     
-    for (int num )
+    // for (int num )
 
 
 
 
-    return num;
+    // return num;
     return -1;
   }
 }
