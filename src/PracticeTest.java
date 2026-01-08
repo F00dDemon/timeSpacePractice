@@ -15,7 +15,6 @@ public class PracticeTest {
     int answer = test.mostCommonTimeEfficient(arr);
     assertEquals(7, answer);
   }
-}
 
 @Test
     public void testmostnumber() {
@@ -29,3 +28,4 @@ public class PracticeTest {
         // 2 and 1 both appear twice, but 2 appears first so it should return 2
         assertEquals(2, Practice.mostCommonSpaceEfficient(nums));
     }    
+}
